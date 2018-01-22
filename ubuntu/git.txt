@@ -1,0 +1,8 @@
+
+
+zqy@zqy-desktop:~/etc$ git config --global user.email "850074816@qq.com"
+zqy@zqy-desktop:~/etc$ git config --global user.email "zqy"
+
+
+
+ssh-keygen

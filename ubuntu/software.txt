@@ -1,0 +1,17 @@
+
+
+sudo apt-get install chromium-browser
+
+//sudo apt-get install code
+
+sudo apt-get install git
+
+
+sudo apt-get install build-essential
+
+
+
+
+
+
+

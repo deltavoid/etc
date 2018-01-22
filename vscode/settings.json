@@ -1,0 +1,26 @@
+{
+    "workbench.colorTheme": "Visual Studio Dark",
+
+    // 控制已更新文件的自动保存。接受的值:“off”、"afterDelay”、“onFocusChange”(编辑器失去焦点)、“onWindowChange”(窗口失去焦点)。如果设置为“afterDelay”，则可在 "files.autoSaveDelay" 中配置延迟。
+    "files.autoSave": "afterDelay",
+
+    // 以像素为单位控制字号。
+    "editor.fontSize": 14,
+
+    // 控制字体系列。
+    "editor.fontFamily": "'Courier New', 'monospace', monospace, 'Droid Sans Fallback'",
+
+    // 控制按“Enter”键是否像按“Tab”键一样接受建议。这能帮助避免“插入新行”和“接受建议”之间的歧义。值为“smart”时表示，仅当文字改变时，按“Enter”键才能接受建议
+    "editor.acceptSuggestionOnEnter": "off",
+
+    // 控制键入时是否应自动显示建议
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+    },
+    
+    // 控制延迟多少毫秒后将显示快速建议
+    "editor.quickSuggestionsDelay": 1000,
+    
+}

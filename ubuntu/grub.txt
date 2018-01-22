@@ -1,0 +1,14 @@
+
+
+sudo gedit /etc/default/grub
+
+
+//modify
+
+
+
+sudo update-grub
+
+
+
+

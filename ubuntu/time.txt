@@ -1,0 +1,8 @@
+
+
+sudo apt-get install ntpdate
+
+ntpdate time.windows.com
+
+hwclock
+
