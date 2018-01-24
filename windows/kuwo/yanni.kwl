@@ -1,0 +1,20 @@
+<so>
+    <so musicrid="MUSIC_296730" name="If I Could Tell You" artist="Yanni" artistid="632" album="If I Could Tell You" albumid="76765" playsource='FROM=曲库-&gt;&quot;yanni&quot;的搜索结果-&gt;结果列表' addtime="1515302117" mediacodes="WMA96|WMA128|MP3128|MP3192|MP3H|AL|MV500|EXMV500" playedtimes="2" lastplaytime="1515303713" multiversion="0" tanmumv="0" webmv="0" songcharge="0" copyrightonline="1" owncopyright="1" lpss1="2345927440" lpss2="3636741182">
+        <res type="net" format="wma" rid="MUSIC_296730" sign1="3786476338" sign2="4257870168" popularity="43" p2pcachepath="C:\ProgramData\mcache\1003D48B3E44C4D8.mp3" />
+        <res type="net" format="mkv" rid="MUSIC_296730" sign1="3120055897" sign2="3816887186" />
+    </so>
+    <so musicrid="MUSIC_299734" name="One Man&apos;s Dream" artist="Yanni" artistid="632" album="Ultimate Yanni 终极雅尼" albumid="31418" playsource='FROM=曲库-&gt;&quot;yanni&quot;的搜索结果-&gt;结果列表' addtime="1515303690" mediacodes="WMA96|WMA128|MP3128|MP3192|MP3H|AL|MV500|MV700|EXMV500|EXMV700" playedtimes="2" lastplaytime="1515303681" multiversion="0" tanmumv="0" webmv="0" songcharge="16515324" copyrightonline="1" owncopyright="1" lpss1="535881069" lpss2="2219174329">
+        <res type="net" format="wma" rid="MUSIC_299734" sign1="535881069" sign2="2219174329" popularity="51" p2pcachepath="C:\ProgramData\mcache\6DE5F01FB9E94584.wma" />
+        <res type="net" format="mkv" rid="MUSIC_299734" sign1="1278300991" sign2="1759904542" />
+    </so>
+    <so musicrid="MUSIC_296816" name="With An Orchid" artist="Yanni" artistid="632" album="If I Could Tell You" albumid="76765" playsource='曲库-&gt;&quot;yanni&quot;的搜索结果-&gt;结果列表' addtime="1515302119" mediacodes="WMA96|WMA128|MP3128|MP3192|MP3H|AAC48|AL|MV500|MV700|EXMV500|EXMV700|EXMP4|EXMP4L" multiversion="0" tanmumv="0" webmv="0" songcharge="0" copyrightonline="1" owncopyright="1">
+        <res type="net" format="wma" rid="MUSIC_296816" sign1="1281735624" sign2="3874793413" popularity="53" />
+        <res type="net" format="mkv" rid="MUSIC_296816" sign1="3903963214" sign2="1383718277" />
+    </so>
+    <so musicrid="MUSIC_296811" name="A Walk In The Rain" artist="Yanni" artistid="632" album="If I Could Tell You" albumid="76765" playsource='FROM=曲库-&gt;&quot;yanni&quot;的搜索结果-&gt;结果列表' addtime="1515303674" mediacodes="WMA96|WMA128|MP3128|MP3192|MP3H|AL" playedtimes="1" lastplaytime="1515303329" multiversion="0" tanmumv="0" webmv="0" songcharge="0" copyrightonline="1" owncopyright="1" lpss1="3311379922" lpss2="3425277080">
+        <res type="net" format="wma" rid="MUSIC_296811" sign1="1640998538" sign2="551978058" popularity="44" p2pcachepath="C:\ProgramData\mcache\D2A55FC5989429CC.mp3" />
+    </so>
+    <so musicrid="MUSIC_4264426" name="夜莺(纯音乐)" artist="Yanni" artistid="632" playsource='曲库-&gt;&quot;yanni&quot;的搜索结果-&gt;结果列表' addtime="1515302124" mediacodes="WMA96|WMA128|MP3128|MP3192|MP3H|AAC48|AL" multiversion="0" tanmumv="0" webmv="0" songcharge="0" copyrightonline="1" owncopyright="1">
+        <res type="net" format="wma" rid="MUSIC_4264426" sign1="24355917" sign2="3934049682" popularity="50" />
+    </so>
+</so>
