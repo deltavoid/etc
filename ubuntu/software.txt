@@ -10,6 +10,43 @@ sudo apt-get install git
 sudo apt-get install build-essential
 
 
+sudo apt install ant 
+                 autoconf 
+                 bison
+                 git
+                 google-perftools    
+                 openjdk-8-jdk 
+                 python-dev  
+                 python-numpy 
+                 python-scipy                                                              
+                 swig 
+                 uuid-dev
+
+                 libaio-dev 
+                 libaio1           
+                 libdb++-dev                        
+                 libdb5.3-dev 
+                 libdb5.3++-dev 
+                 libgtop2-dev                                 
+                 libboost-dev
+                 libboost-all-dev                 
+                 libboost-test-dev 
+                 libbz2-dev                 
+                 libcrypto++-dev 
+                 libjemalloc-dev 
+                 libnuma-dev 
+                 libncurses-dev
+                 libopencv-dev 
+                 libpthread-stubs0-dev
+                 libreadline-dev 
+                 libreadline6 
+                 libreadline6-dev 
+                 libssl-dev 
+                 libtool
+                 libxapian-dev 
+
+
+
 
 
 

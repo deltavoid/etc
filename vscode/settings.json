@@ -13,6 +13,12 @@
     // 控制按“Enter”键是否像按“Tab”键一样接受建议。这能帮助避免“插入新行”和“接受建议”之间的歧义。值为“smart”时表示，仅当文字改变时，按“Enter”键才能接受建议
     "editor.acceptSuggestionOnEnter": "off",
 
+    // 控制编辑器是否应该在左括号后自动插入右括号
+    "editor.autoClosingBrackets": false,
+
+    // 当选择其中一项时，将突出显示匹配的括号。
+    "editor.matchBrackets": true,
+
     // 控制键入时是否应自动显示建议
     "editor.quickSuggestions": {
         "other": true,
