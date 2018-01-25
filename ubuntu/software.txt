@@ -48,6 +48,8 @@ sudo apt install ant
 
 
 
+sudo apt-get install netease-cloud-music
+sudo apt-get -f install
 
 
 
