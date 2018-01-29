@@ -1,0 +1,38 @@
+// 将键绑定放入此文件中以覆盖默认值
+[
+    {
+        "key": "ctrl+tab",
+        "command": "workbench.action.terminal.focusNext", // 切换到下一个终端 
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "workbench.action.terminal.kill", // 关闭当前终端
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "workbench.action.terminal.new", // 打开新的终端
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+1",
+        "command": "workbench.action.terminal.focusAtIndex1", // 打开终端1
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+2",
+        "command": "workbench.action.terminal.focusAtIndex2",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+3",
+        "command": "workbench.action.terminal.focusAtIndex3",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+4",
+        "command": "workbench.action.terminal.focusAtIndex4",
+        "when": "terminalFocus"
+    }
+]
