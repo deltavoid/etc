@@ -1,0 +1,10 @@
+
+
+更新源
+
+sudo apt-get upate
+
+sudo apt-get upgrade
+
+sudo update-manager -d
+
