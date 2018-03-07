@@ -1,0 +1,40 @@
+
+
+
+//lamp
+
+sudo apt-get install apache2
+
+
+sudo apt-get install mysql-server mysql-client
+
+
+sudo apt-get install phpmyadmin
+
+sudo ln -s /usr/share/phpmyadmin /var/www/html
+
+
+
+解压owncloud，此处放在/usr/share/owncloud
+sudo ln -s /usr/share/owncloud /var/www/html
+
+cd /var/www/html/owncloud
+mkdir data
+sudo chown -R www-data:www-data data
+sudo chown -R www-data:www-data config
+sudo chown -R www-data:www-data apps
+
+
+打开/etc/apache2/apache2.conf
+修改AllowOverride All
+
+sudo a2enmod rewrite
+sudo a2enmod headers
+
+service apache2 restart
+
+
+在浏览器中配置owncloud
+
+
+
