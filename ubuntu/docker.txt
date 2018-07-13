@@ -1,0 +1,62 @@
+
+
+Docker Note
+url: http://www.ruanyifeng.com/blog/2018/02/docker-tutorial.html
+
+
+1.install 
+
+    sudo apt install docker
+
+    sudo apt install docker.io
+
+
+    docker version
+
+
+    sudo service docker start
+
+    sudo systemctl start docker
+
+2. hello world
+
+    docker image pull library/hello-world
+
+    docker image ls
+
+    docker container run hello-world
+
+    docker container run -it ubuntu bash
+
+3. docker image
+
+    docker image ls
+
+    docker image build -t koa-demo .
+
+4. docker container
+
+    docker container ls
+
+    docker container ls --all
+
+
+    docker container run -p 8000:3000 -it koa-demo /bin/bash
+
+    docker container kill [containerID]
+
+    docker container rm [containerID]
+
+
+    docker container start [containerID]
+
+    bash container stop [containerID]
+
+    docker container logs
+
+
+
+
+
+
+
