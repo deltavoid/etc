@@ -1,0 +1,38 @@
+
+java development environment
+
+
+JDK
+
+https://www.cnblogs.com/Dylansuns/p/6974272.html
+
+5、设置环境变量
+
+[root@localhost software]# vim /etc/profile
+在最前面添加：
+
+export JAVA_HOME=/usr/lib/jvm/jdk1.8.0_131  
+export JRE_HOME=${JAVA_HOME}/jre  
+export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib  
+export PATH=${JAVA_HOME}/bin:$PATH
+
+6、执行profile文件
+
+[root@localhost software]# source /etc/profile
+这样可以使配置不用重启即可立即生效。
+
+7、检查新安装的jdk
+
+[root@localhost software]# java -version
+
+
+MAVEN
+
+https://blog.csdn.net/ac_dao_di/article/details/54233520
+
+主要是在/etc/profile中设置目录和到处PATH
+
+
+
+IDEA
+

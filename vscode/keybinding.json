@@ -34,5 +34,36 @@
         "key": "alt+4",
         "command": "workbench.action.terminal.focusAtIndex4",
         "when": "terminalFocus"
+    },
+    {
+        "key": "alt+5",
+        "command": "workbench.action.terminal.focusAtIndex5", // 打开终端1
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+6",
+        "command": "workbench.action.terminal.focusAtIndex6",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+7",
+        "command": "workbench.action.terminal.focusAtIndex7",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+8",
+        "command": "workbench.action.terminal.focusAtIndex8",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+9",
+        "command": "workbench.action.terminal.focusAtIndex9",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+0",
+        "command": "workbench.action.terminal.focusAtIndex10",
+        "when": "terminalFocus"
     }
+
 ]
