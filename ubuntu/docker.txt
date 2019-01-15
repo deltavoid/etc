@@ -57,6 +57,13 @@ url: http://www.ruanyifeng.com/blog/2018/02/docker-tutorial.html
 
 
 
+docker-compose
+
+    docker-compose build
+
+    docker-compose up
+
+    
 
 
 

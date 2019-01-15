@@ -1,0 +1,32 @@
+
+
+rust install
+
+    curl https://sh.rustup.rs -sSf | sh
+
+    rustc --version
+
+rust with vscode
+
+    //https://www.jianshu.com/p/c9d47ce835ce
+
+
+    rustup update
+
+    rustup component add rls-preview rust-analysis rust-src
+
+
+    //rustup override set nightly-2019-01-01
+    cargo install racer
+
+    然后用vscode 安装rust 插件 vscode-rust
+
+
+    配置环境变量：
+    export CARGO_HOME="~/.cargo/"
+    export RUSTBINPATH="~/.cargo/bin"
+    export RUST="~/.rustup/toolchains/stable-x86_64-unknown-linux-gnu"
+    export RUST_SRC_PATH="$RUST/lib/rustlib/src/rust/src"
+    export PATH=$PATH:$RUSTBINPATH
+
+    //Ctrl+P and type ext install vscode-rust
