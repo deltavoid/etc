@@ -1,0 +1,5 @@
+
+
+sudo update-rc.d <program> enable
+
+it may not work.
