@@ -27,7 +27,9 @@
     },
     
     // 控制延迟多少毫秒后将显示快速建议
-    "editor.quickSuggestionsDelay": 1000,
+    "editor.quickSuggestionsDelay": 400,
     "window.zoomLevel": 1,
+
+    "terminal.integrated.fontFamily": "'Courier New', 'monospace', monospace, 'Droid Sans Fallback'",
     
 }
