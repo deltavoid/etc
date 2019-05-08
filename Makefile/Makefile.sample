@@ -1,0 +1,68 @@
+
+
+
+
+AntTweakBar := AntTweakBar
+AntTweakBar_INCLUDE := $(AntTweakBar)/include
+AntTweakBar_LIBDIR := $(AntTweakBar)/lib
+
+
+GLFW := glfw-2.7.7
+GLFW_INCLUDE := $(GLFW)/include
+GLFW_LIBDIR := $(GLFW)/lib/x11
+
+
+CFLAGS := -g -Wall -I $(AntTweakBar_INCLUDE) -I $(GLFW_INCLUDE) 
+LDFLAGS := -L $(AntTweakBar_LIBDIR) -lAntTweakBar -L $(GLFW_LIBDIR) -lX11 -lGL -lglfw -lX11 -lGL -pthread -lm -lopengl32
+
+
+
+
+SRC_DIR := src
+OBJ_DIR := $(patsubst src%,obj%, $(SRC_DIR))
+SRCS := $(wildcard $(addsuffix /*.cpp, $(SRC_DIR)))
+DEPS := $(patsubst src/%.cpp,obj/%.d, $(SRCS))
+
+PHYSICS_EXEC := bin/physics
+PHYSICS_SRCS := $(SRCS)
+PHYSICS_OBJS := $(patsubst src/%.cpp,obj/%.o, $(PHYSICS_SRCS)) 
+
+
+.PHONY: all build run clean distclean
+all: run
+
+
+build: $(PHYSICS_EXEC)
+
+$(PHYSICS_EXEC): $(PHYSICS_OBJS)
+	@echo objs: $(PHYSICS_OBJS)
+	$(CXX) -o $@ $^ $(LDFLAGS)
+
+include $(DEPS) Makefile.dep
+
+obj/%.d: src/%.cpp
+	$(CXX) $(CFLAGS) -MM -MT "$(patsubst src/%.cpp,obj/%.o, $<) $@" -MF "$@" $<
+
+obj/%.o: src/%.cpp
+	$(CXX) $(CFLAGS) -o $@ -c $<
+
+Makefile.dep:
+	mkdir bin
+	mkdir $(OBJ_DIR)
+	touch Makefile.dep
+
+
+run: build
+	LD_LIBRARY_PATH=$(AntTweakBar_LIBDIR):$(GLFW_LIBDIR):$${LD_LIBRARY_PATH} $(PHYSICS_EXEC)
+
+
+clean:
+	rm $(PHYSICS_EXEC)
+	rm $(PHYSICS_OBJS)
+
+distclean:
+	rm -R bin
+	rm -R obj
+	rm Makefile.dep
+
+
