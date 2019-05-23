@@ -1,0 +1,67 @@
+
+
+CXXFLAGS := -I src/common -I src/server -I src/client
+LDFLAGS := -pthread
+
+
+SRC_DIR := src src/server src/client src/common
+OBJ_DIR := $(patsubst src%,obj%, $(SRC_DIR))
+SRCS := $(wildcard $(addsuffix /*.cpp, $(SRC_DIR)))
+OBJS := $(patsubst src/%.cpp,obj/%.o, $(SRCS))
+DEPS := $(patsubst src/%.cpp,obj/%.d, $(SRCS))
+
+SERVER_EXEC := bin/server
+SERVER_SRC_DIR := src/server src/common
+SERVER_SRCS := $(wildcard $(addsuffix /*.cpp, $(SERVER_SRC_DIR)))
+SERVER_OBJS := $(patsubst src/%.cpp,obj/%.o, $(SERVER_SRCS)) 
+
+CLIENT_EXEC := bin/client
+CLIENT_SRC_DIR := src/client src/common
+CLIENT_SRCS := $(wildcard $(addsuffix /*.cpp, $(CLIENT_SRC_DIR)))
+CLIENT_OBJS := $(patsubst src/%.cpp,obj/%.o, $(CLIENT_SRCS))
+
+
+
+.PHONY: all build run clean distclean
+all: run
+
+
+build: $(SERVER_EXEC) $(CLIENT_EXEC)
+
+$(SERVER_EXEC): $(SERVER_OBJS)
+	@echo objs: $(SERVER_OBJS)
+	$(CXX) -o $@ $^ $(LDFLAGS)
+
+$(CLIENT_EXEC): $(CLIENT_OBJS)
+	@echo objs: $(CLIENT_OBJS)
+	$(CXX) -o $@ $^ $(LDFLAGS)
+
+include $(DEPS) Makefile.dep
+
+obj/%.d: src/%.cpp
+	$(CXX) $(CXXFLAGS) -MM -MT "$(patsubst src/%.cpp,obj/%.o, $<) $@" -MF "$@" $<
+
+obj/%.o: src/%.cpp
+	$(CXX) $(CXXFLAGS) -o $@ -c $<
+
+Makefile.dep:
+	mkdir bin
+	mkdir $(OBJ_DIR)
+	touch Makefile.dep
+
+
+run: build
+	$(SERVER_EXEC)
+
+
+clean:
+	rm $(SERVER_EXEC) $(CLIENT_EXEC)
+	rm $(OBJS)
+
+distclean:
+	rm -R bin
+	rm -R obj
+	rm Makefile.dep
+
+
+
