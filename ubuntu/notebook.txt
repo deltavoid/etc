@@ -1,0 +1,12 @@
+
+
+https://blog.csdn.net/god1992/article/details/88295898
+
+ubuntu18.04 合盖不休眠
+
+sudo vim /etc/systemd/logind.conf 
+
+HandleLidSwitch=lock
+
+
+systemctl restart systemd-logind
