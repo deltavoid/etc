@@ -1,10 +1,21 @@
 
 
+
+ubuntu
+
 sudo passwd root
-
-
 
 su
 
 
+
+debian
+
+su
+
+
+@/etc/sudoers.d
+touch zqy
+vim zqy : zqy ALL=(ALL:ALL) ALL
+chmod 0440 zqy
 
