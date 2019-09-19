@@ -15,6 +15,16 @@ echo
 cat /proc/version
 echo
 
+lsb_release -a
+echo 
+
+#cat /etc/issue
+#cat /etc/issue.net
+#cat /etc/lsb-release
+cat /etc/os-release
+#cat /etc/debian_version
+echo 
+
 ip address
 echo
 
