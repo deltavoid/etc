@@ -25,6 +25,9 @@ cat /etc/os-release
 #cat /etc/debian_version
 echo 
 
+gcc -v
+echo
+
 ip address
 echo
 
