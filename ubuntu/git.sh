@@ -8,4 +8,4 @@ git config --global user.email "zhangqianyu.sys@bytedance.com"
 
 #git config --global push.default simple
 
-
+git config -l

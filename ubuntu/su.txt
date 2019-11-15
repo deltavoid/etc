@@ -13,6 +13,7 @@ debian
 
 su
 
+apt install sudo
 
 @/etc/sudoers.d
 touch zqy

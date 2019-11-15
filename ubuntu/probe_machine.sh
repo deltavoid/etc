@@ -34,3 +34,8 @@ echo
 lspci
 echo
 
+gcc -v
+echo
+#g++ -v
+#echo
+
