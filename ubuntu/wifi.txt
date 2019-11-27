@@ -1,0 +1,6 @@
+
+
+debian10 wifi
+
+sudo apt-get install firmware-iwlwifi
+
