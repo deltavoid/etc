@@ -1,0 +1,33 @@
+
+Windows 软件列表
+
+
+Windows Terminal
+
+    cygwin
+     
+        ssh
+
+    
+VScode
+
+    remote-development
+    
+
+
+
+chrome
+
+
+
+lark
+
+
+
+
+
+VirtualBox
+
+
+Docker Desktop
+
