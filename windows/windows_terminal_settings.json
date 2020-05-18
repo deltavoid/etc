@@ -1,179 +1,195 @@
 {
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "globals": {
-        "alwaysShowTabs": true,
-        "defaultProfile": "{f1c1bd17-a4e8-4497-acc2-4245b3b6bbd3}",
-        "initialCols": 120,
-        "initialRows": 30,
-        "requestedTheme": "system",
-        "showTabsInTitlebar": true,
-        "showTerminalTitleInTitlebar": true,
-        "wordDelimiters": " ./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}~?\u2502",
-        "keybindings": [
-            {
-                "command": "closeTab",
-                "keys": [
-                    "ctrl+w"
-                ]
+    "alwaysShowTabs": true,
+    "defaultProfile": "{f1c1bd17-a4e8-4497-acc2-4245b3b6bbd3}",
+    "initialCols": 120,
+    "initialRows": 30,
+    "theme": "system",
+    "showTabsInTitlebar": true,
+    "showTerminalTitleInTitlebar": true,
+    "wordDelimiters": " ./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}~?\u2502",
+    "keybindings": [
+        {
+            "command": "closeTab",
+            "keys": [
+                "ctrl+w"
+            ]
+        },
+        {
+            "command": "newTab",
+            "keys": [
+                "ctrl+t"
+            ]
+        },
+        {
+            "command": {
+                "action": "newTab",
+                "index": 0
             },
-            {
-                "command": "newTab",
-                "keys": [
-                    "ctrl+t"
-                ]
+            "keys": "ctrl+shift+1"
+        },
+        {
+            "command": {
+                "action": "newTab",
+                "index": 1
             },
-            {
-                "command": "newTabProfile0",
-                "keys": [
-                    "ctrl+shift+1"
-                ]
+            "keys": "ctrl+shift+2"
+        },
+        {
+            "command": {
+                "action": "newTab",
+                "index": 2
             },
-            {
-                "command": "newTabProfile1",
-                "keys": [
-                    "ctrl+shift+2"
-                ]
+            "keys": "ctrl+shift+3"
+        },
+        {
+            "command": {
+                "action": "newTab",
+                "index": 3
             },
-            {
-                "command": "newTabProfile2",
-                "keys": [
-                    "ctrl+shift+3"
-                ]
+            "keys": "ctrl+shift+4"
+        },
+        {
+            "command": {
+                "action": "newTab",
+                "index": 4
             },
-            {
-                "command": "newTabProfile3",
-                "keys": [
-                    "ctrl+shift+4"
-                ]
+            "keys": "ctrl+shift+5"
+        },
+        {
+            "command": {
+                "action": "newTab",
+                "index": 5
             },
-            {
-                "command": "newTabProfile4",
-                "keys": [
-                    "ctrl+shift+5"
-                ]
+            "keys": "ctrl+shift+6"
+        },
+        {
+            "command": {
+                "action": "newTab",
+                "index": 6
             },
-            {
-                "command": "newTabProfile5",
-                "keys": [
-                    "ctrl+shift+6"
-                ]
+            "keys": "ctrl+shift+7"
+        },
+        {
+            "command": {
+                "action": "newTab",
+                "index": 7
             },
-            {
-                "command": "newTabProfile6",
-                "keys": [
-                    "ctrl+shift+7"
-                ]
+            "keys": "ctrl+shift+8"
+        },
+        {
+            "command": "nextTab",
+            "keys": [
+                "ctrl+tab"
+            ]
+        },
+        {
+            "command": "openSettings",
+            "keys": [
+                "ctrl+,"
+            ]
+        },
+        {
+            "command": "prevTab",
+            "keys": [
+                "ctrl+shift+tab"
+            ]
+        },
+        {
+            "command": "scrollDown",
+            "keys": [
+                "ctrl+shift+down"
+            ]
+        },
+        {
+            "command": "scrollDownPage",
+            "keys": [
+                "ctrl+shift+pgdn"
+            ]
+        },
+        {
+            "command": "scrollUp",
+            "keys": [
+                "ctrl+shift+up"
+            ]
+        },
+        {
+            "command": "scrollUpPage",
+            "keys": [
+                "ctrl+shift+pgup"
+            ]
+        },
+        {
+            "command": {
+                "action": "switchToTab",
+                "index": 0
             },
-            {
-                "command": "newTabProfile7",
-                "keys": [
-                    "ctrl+shift+8"
-                ]
+            "keys": "alt+1"
+        },
+        {
+            "command": {
+                "action": "switchToTab",
+                "index": 1
             },
-            {
-                "command": "newTabProfile8",
-                "keys": [
-                    "ctrl+shift+9"
-                ]
+            "keys": "alt+2"
+        },
+        {
+            "command": {
+                "action": "switchToTab",
+                "index": 2
             },
-            {
-                "command": "nextTab",
-                "keys": [
-                    "ctrl+tab"
-                ]
+            "keys": "alt+3"
+        },
+        {
+            "command": {
+                "action": "switchToTab",
+                "index": 3
             },
-            {
-                "command": "openSettings",
-                "keys": [
-                    "ctrl+,"
-                ]
+            "keys": "alt+4"
+        },
+        {
+            "command": {
+                "action": "switchToTab",
+                "index": 4
             },
-            {
-                "command": "prevTab",
-                "keys": [
-                    "ctrl+shift+tab"
-                ]
+            "keys": "alt+5"
+        },
+        {
+            "command": {
+                "action": "switchToTab",
+                "index": 5
             },
-            {
-                "command": "scrollDown",
-                "keys": [
-                    "ctrl+shift+down"
-                ]
+            "keys": "alt+6"
+        },
+        {
+            "command": {
+                "action": "switchToTab",
+                "index": 6
             },
-            {
-                "command": "scrollDownPage",
-                "keys": [
-                    "ctrl+shift+pgdn"
-                ]
+            "keys": "alt+7"
+        },
+        {
+            "command": {
+                "action": "switchToTab",
+                "index": 7
             },
-            {
-                "command": "scrollUp",
-                "keys": [
-                    "ctrl+shift+up"
-                ]
+            "keys": "alt+8"
+        },
+        {
+            "command": {
+                "action": "switchToTab",
+                "index": 8
             },
-            {
-                "command": "scrollUpPage",
-                "keys": [
-                    "ctrl+shift+pgup"
-                ]
+            "keys": "alt+9"
+        },
+        {
+            "command": {
+                "action": "switchToTab",
+                "index": 9
             },
-            {
-                "command": "switchToTab0",
-                "keys": [
-                    "alt+1"
-                ]
-            },
-            {
-                "command": "switchToTab1",
-                "keys": [
-                    "alt+2"
-                ]
-            },
-            {
-                "command": "switchToTab2",
-                "keys": [
-                    "alt+3"
-                ]
-            },
-            {
-                "command": "switchToTab3",
-                "keys": [
-                    "alt+4"
-                ]
-            },
-            {
-                "command": "switchToTab4",
-                "keys": [
-                    "alt+5"
-                ]
-            },
-            {
-                "command": "switchToTab5",
-                "keys": [
-                    "alt+6"
-                ]
-            },
-            {
-                "command": "switchToTab6",
-                "keys": [
-                    "alt+7"
-                ]
-            },
-            {
-                "command": "switchToTab7",
-                "keys": [
-                    "alt+8"
-                ]
-            },
-            {
-                "command": "switchToTab8",
-                "keys": [
-                    "alt+9"
-                ]
-            }
-        ]
-    },
+            "keys": "alt+0"
+        }
+    ],
     "profiles": [
         {
             "name": "ste-dev",
@@ -204,7 +220,7 @@
             "padding": "0, 0, 0, 0"
         },
         {
-            "name": "WSL" ,
+            "name": "WSL",
             "guid": "{78e390db-1bff-4533-9d7c-20f53d8bafa1}",
             "commandline": "wsl ~",
             "snapOnInput": true,
@@ -459,8 +475,8 @@
             "background": "#000000",
             // "foreground": "#bbbbbb"
             "foreground": "#FDF6E3"
-          },
-          {
+        },
+        {
             "name": "Builtin Light",
             "black": "#000000",
             "red": "#bb0000",
@@ -480,8 +496,8 @@
             "brightWhite": "#ffffff",
             "background": "#ffffff",
             "foreground": "#000000"
-          },
-          {
+        },
+        {
             "name": "Builtin Pastel Dark",
             "black": "#4f4f4f",
             "red": "#ff6c60",
@@ -501,8 +517,8 @@
             "brightWhite": "#ffffff",
             "background": "#000000",
             "foreground": "#bbbbbb"
-          },
-          {
+        },
+        {
             "name": "Builtin Solarized Dark",
             "black": "#073642",
             "red": "#dc322f",
@@ -522,8 +538,8 @@
             "brightWhite": "#fdf6e3",
             "background": "#002b36",
             "foreground": "#839496"
-          },
-          {
+        },
+        {
             "name": "Builtin Solarized Light",
             "black": "#073642",
             "red": "#dc322f",
@@ -543,8 +559,8 @@
             "brightWhite": "#fdf6e3",
             "background": "#fdf6e3",
             "foreground": "#657b83"
-          },
-          {
+        },
+        {
             "name": "Builtin Tango Dark",
             "black": "#000000",
             "red": "#cc0000",
@@ -564,8 +580,8 @@
             "brightWhite": "#eeeeec",
             "background": "#000000",
             "foreground": "#ffffff"
-          },
-          {
+        },
+        {
             "name": "Builtin Tango Light",
             "black": "#000000",
             "red": "#cc0000",
@@ -585,6 +601,6 @@
             "brightWhite": "#eeeeec",
             "background": "#ffffff",
             "foreground": "#000000"
-          }
+        }
     ]
 }
