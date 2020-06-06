@@ -37,7 +37,7 @@
     },
     {
         "key": "alt+5",
-        "command": "workbench.action.terminal.focusAtIndex5", // 打开终端1
+        "command": "workbench.action.terminal.focusAtIndex5",
         "when": "terminalFocus"
     },
     {

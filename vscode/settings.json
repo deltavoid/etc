@@ -1,11 +1,13 @@
 {
+    "window.titleBarStyle": "custom",
+
     // "workbench.colorTheme": "Visual Studio Light",
 
     // 控制已更新文件的自动保存。接受的值:“off”、"afterDelay”、“onFocusChange”(编辑器失去焦点)、“onWindowChange”(窗口失去焦点)。如果设置为“afterDelay”，则可在 "files.autoSaveDelay" 中配置延迟。
     "files.autoSave": "afterDelay",
 
     // 以像素为单位控制字号。
-    "editor.fontSize": 14,
+    "editor.fontSize": 15,
 
     // 控制字体系列。
     "editor.fontFamily": "'Courier New', 'monospace', monospace, 'Droid Sans Fallback'",
@@ -14,10 +16,10 @@
     "editor.acceptSuggestionOnEnter": "off",
 
     // 控制编辑器是否应该在左括号后自动插入右括号
-    "editor.autoClosingBrackets": false,
+    "editor.autoClosingBrackets": "never",
 
     // 当选择其中一项时，将突出显示匹配的括号。
-    "editor.matchBrackets": true,
+    "editor.matchBrackets": "always",
 
     // 控制键入时是否应自动显示建议
     "editor.quickSuggestions": {
@@ -29,8 +31,10 @@
     // 控制延迟多少毫秒后将显示快速建议
     "editor.quickSuggestionsDelay": 400,
 
-    "terminal.integrated.fontFamily": "'Courier New', 'monospace', monospace, 'Droid Sans Fallback'",
+    
     "breadcrumbs.enabled": false,
-    "window.titleBarStyle": "custom",
+
+    "terminal.integrated.fontFamily": "'Courier New', 'monospace', monospace, 'Droid Sans Fallback'",
+    
     
 }

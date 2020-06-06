@@ -4,10 +4,14 @@ Windows 软件列表
 
 Windows Terminal
 
-    cygwin
-     
-        ssh
+    Windows PowerShell
 
+    cygwin
+        ssh
+        krb
+        git
+
+    WSL
     
 VScode
 
