@@ -2,5 +2,7 @@
 
 debian10 wifi
 
+// source.list add non-free
+
 sudo apt-get install firmware-iwlwifi
 

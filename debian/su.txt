@@ -17,6 +17,9 @@ apt install sudo
 
 @/etc/sudoers.d
 touch zqy
-vim zqy : zqy ALL=(ALL:ALL) ALL
+vim zqy
+`
+zqy ALL=(ALL:ALL) ALL
+`
 chmod 0440 zqy
 
